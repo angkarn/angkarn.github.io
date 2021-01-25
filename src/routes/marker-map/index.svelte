@@ -1,4 +1,14 @@
 <script>
+	import { onMount } from "svelte";
+	onMount(async () => {
+		const aElm = document.getElementsByTagName("a");
+		console.log(aElm.length);
+		Array.from(aElm).forEach((e) => {
+			if (e.getAttribute("href").startsWith("#")) {
+				e.href = document.location.pathname + e.getAttribute("href");
+			}
+		});
+	});
 </script>
 
 <svelte:head>
