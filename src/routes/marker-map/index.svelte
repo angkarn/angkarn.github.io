@@ -13,14 +13,19 @@
 
 <svelte:head>
 	<title>Marker Map</title>
-	<link rel="stylesheet" href="https://stackedit.io/style.css" />
+	<link rel="stylesheet" href="https://stackedit.io/style.css" as="style"/>
 	<link rel="icon" href="marker-map/favicon.ico" />
 </svelte:head>
 <div>
 	<div class="stackedit__html">
 		<div class="link">
 			<a href="https://github.com/angkarn/marker-map">
-				<img width="40" src="img/github.svg" alt="github" />
+				<img
+					width="40"
+					height="42.5"
+					src="img/github.svg"
+					alt="github"
+				/>
 			</a>
 		</div>
 		<h1 id="marker-map">Marker Map</h1>
@@ -30,6 +35,9 @@
 		</p>
 		<p>
 			<img
+				width="400"
+				height="400"
+				class="screenshot"
 				src="https://github.com/angkarn/marker-map/raw/main/example/assets/screenshot.jpg"
 				alt="marker map screenshot"
 			/>
@@ -290,6 +298,17 @@ markerMap<span class="token punctuation">.</span><span class="token function">re
 <style>
 	.stackedit__html {
 		margin: 0 auto !important;
+		padding: 15px !important;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-display: swap;
+	}
+
+	.screenshot {
+		width: 100%;
+		height: auto;
+		max-width: 400px;
+		aspect-ratio: 1/1;
+		background: #24735a;
 	}
 
 	.link {
@@ -304,17 +323,16 @@ markerMap<span class="token punctuation">.</span><span class="token function">re
 	}
 
 	.stackedit__html {
-		padding: 15px !important;
 	}
 
 	.wrap_table {
 		overflow-x: auto;
 	}
 
-	.stackedit__html {
+	/* .stackedit__html {
 		margin: 0;
 		padding: 0;
-	}
+	} */
 
 	th.des,
 	th.method {

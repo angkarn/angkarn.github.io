@@ -104,7 +104,7 @@
 <div class="content">
     <div class="link">
         <a href="https://github.com/angkarn/marker-map">
-            <img width="35" src="img/github.svg" alt="github" />
+            <img width="35" height="37.5" src="img/github.svg" alt="github" />
         </a>
     </div>
     <h1 class="title">
@@ -149,6 +149,9 @@
         margin: 5px auto;
         width: 100%;
         max-width: 400px;
+        height: auto;
+        aspect-ratio: 1/1;
+        background: #24735a;
     }
 
     #action {
