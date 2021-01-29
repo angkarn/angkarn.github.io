@@ -18,7 +18,6 @@
 <style>
 	.posts_list {
 		text-align: center;
-		font-family: Verdana, sans-serif;
 		color: rgb(92, 92, 92);
 	}
 

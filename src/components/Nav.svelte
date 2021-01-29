@@ -35,13 +35,14 @@
 	nav {
 		user-select: none;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		font: menu;
+		/* font: menu; */
 		font-variant: small-caps;
 		color: darkgrey;
 		cursor: pointer;
 		padding: 10px;
 		border: none;
 		outline: none;
+		font-weight: 100;
 		font-size: 1.2em;
 		position: absolute;
 		margin: 0 auto;

@@ -163,10 +163,12 @@
         color: rgb(255, 255, 255);
         box-shadow: 0 0 2px #00000038;
         border: none;
-        padding: 2px 4px 5px 5px;
+        padding: 1px 4px 5px 5px;
         margin: 5px 3px;
         min-width: 140px;
         border-radius: 4px;
+        font-weight: bold;
+        font-family: "Bai Jamjuree", sans-serif;
         font-size: 1.2em;
         outline: none;
         cursor: pointer;
